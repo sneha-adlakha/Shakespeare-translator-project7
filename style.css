@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri&display=swap');
+
+#output{
+
+    height:4rem;
+    display: block;
+    border: 1px solid var(--primary-color);
+    width: 80%;
+    overflow: scroll;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    padding: 1rem;
+}
+:root{
+--primary-color:#065F46;
+--second-color: #6ee7b7;
+}
+body{
+
+    background-color:white;
+    color:var(--primary-color);
+    font-family: 'El Messiri', sans-serif;
+}
+.top{
+    padding: 0.5rem;
+    padding-top: 1rem;
+    text-align:center;
+    background-color: var(--second-color);
+}
+.top .top-img{
+    max-width: 150px;
+    display:block;
+    margin:auto;
+}
+textarea{
+    height: 4rem;
+    display:block;
+    margin: 1rem;
+    width: 80%;
+    border: 1px solid var(--primary-color);
+    overflow: scroll;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+button{
+    font-family: 'El Messiri', sans-serif;
+    background-color: var(--primary-color);
+    color: var(--second-color);
+    display:inline-block;
+    display: block;
+    height: 3.5rem;
+    margin: auto;
+    padding: 1rem;
+}
+.foot{
+    padding: 0.5rem;
+    padding-top: 1rem;
+    text-align:center;
+    background-color:var(--second-color);
+}
