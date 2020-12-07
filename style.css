@@ -51,7 +51,7 @@ textarea{
 button{
     font-family: 'El Messiri', sans-serif;
     background-color: var(--primary-color);
-    color: var(--second-color);
+    color: white;
     display:inline-block;
     display: block;
     height: 3.5rem;
